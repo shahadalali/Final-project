@@ -1,0 +1,193 @@
+
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Harmattan', sans-serif;
+    
+}
+
+.logo{
+    width: 250px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+
+}
+.banner-text{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.664);
+    padding-top: 180px;
+
+
+}
+.banner-text h1{
+
+font-size: 120px;
+font-family: 'Electrolize', sans-serif;
+
+
+}
+.banner-text p{
+    font-size: 29px;
+    font-style: italic;
+    color:  rgba(255, 255, 255, 0.904);
+}
+.banner-btn{
+    margin: 70px auto 0;
+}
+.banner-btn a {
+    width:150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0 ;
+    color:rgba(255, 255, 255, 0.904);
+    border: .5px solid rgba(255, 255, 255, 0.904);
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s ;
+}
+.banner-btn a span{
+    width: 0;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background: #fff;
+z-index: -1;
+transition: 0.5s;
+text-decoration: none;
+}
+
+
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background:  #4242428c;
+    z-index: 2;
+    transition: 0.5s;
+    list-style: none;
+}
+nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+    
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    
+}
+a{
+    color: white;
+        text-decoration: none;
+        font-size: 28px;
+        font-family: 'Electrolize', sans-serif;
+
+    }
+    
+
+#menubtn{
+    width:50px; 
+    height: 50px;
+    background:  #4242428c;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menubtn img{
+    width: 20px;
+    margin-top: 15px;
+
+}
+
+
+
+
+
+
+
+
+body{
+
+background-image: url(./feedbackbg.jpg);
+
+}
+.Feedback-form{
+ background: rgba(255, 255, 255, 0.856);
+ margin-top: 7%;
+margin-bottom: 3%;
+border-radius: 6rem;
+
+
+
+}
+.Feedback-form .form-control{
+
+ border-radius: 1rem;
+
+
+}
+.Feedback-form .form-control:hover{
+
+background-color: rgba(165, 162, 154, 0.705);
+
+}
+.feedback-image{
+    text-align: center;
+
+
+}
+.feedback-image img{ 
+border-radius: 6rem;
+width: 11%;
+margin-top: -3%;
+transform: rotate(29deg);
+}
+.Feedback-form form{
+
+padding: 14%;
+
+
+}
+.Feedback-form form.row{
+
+margin-bottom:-7% ;
+
+
+}
+.Feedback-form h3{
+
+    margin-bottom:8% ;
+    margin-top: -10%;
+    text-align: center;
+    color:#0062cc ;
+}
+.Feedback-form .btnFeedback{
+    width: 50%;
+    border: none;
+border-radius: 1rem;
+padding: 1.5%;
+background: #dc3545 ;
+font-weight: 60;
+color: white;
+cursor: pointer;
+
+}
+.Feedback-form p{
+margin-top: 10px;
+margin-bottom: 3px;
+color: gray;
+
+}
